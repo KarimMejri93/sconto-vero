@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sconto Vero · Informativa sulla privacy</title>
+  <style>
+    :root { --ink: #1f2328; --muted: #57606a; --bg: #ffffff; --brand: #8A42A0; --line: #d0d7de; }
+    @media (prefers-color-scheme: dark) { :root { --ink: #e6edf3; --muted: #9da7b1; --bg: #212326; --brand: #A566BB; --line: #3d444d; } }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+    h1 { color: var(--brand); font-style: italic; margin: 0 0 4px; }
+    h2 { font-size: 17px; margin: 28px 0 6px; }
+    .muted { color: var(--muted); }
+    table { border-collapse: collapse; width: 100%; font-size: 14px; }
+    th, td { text-align: left; vertical-align: top; padding: 6px 8px; border-top: 1px solid var(--line); }
+    a { color: var(--brand); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Sconto Vero</h1>
+  <p class="muted">Informativa sulla privacy · ultimo aggiornamento: 17 ottobre 2026</p>
+
+  <p><b>In breve:</b> Sconto Vero non ha server e non raccoglie dati. Tutto viene calcolato e salvato nel tuo browser.
+    L'unica richiesta verso l'esterno è il grafico dei prezzi di Keepa, che riceve solo il codice del prodotto che stai
+    guardando, e puoi disattivarla.</p>
+
+  <h2>Chi è il titolare</h2>
+  <p>Karim Mejri · contatto: codeengineered@gmail.com</p>
+
+  <h2>Quali pagine legge</h2>
+  <p>L'estensione funziona solo sulle pagine di <b>www.amazon.it</b>. Legge, dentro il tuo browser, il prezzo, lo sconto
+    dichiarato e le indicazioni mostrate nella pagina prodotto (per esempio "Offerta a tempo"). Questi contenuti non
+    vengono inviati a nessuno.</p>
+
+  <h2>Cosa resta salvato nel tuo browser</h2>
+  <table>
+    <tr><th>Dato</th><th>Dove</th><th>A cosa serve</th></tr>
+    <tr><td>Stipendio netto mensile, mensilità, ore settimanali, preferenze e modalità</td><td>Impostazioni di Chrome (<code>storage.sync</code>): se hai attivato la sincronizzazione di Chrome, Google le sincronizza sui tuoi dispositivi</td><td>Calcolare le ore di lavoro e mostrare le funzioni che hai scelto</td></tr>
+    <tr><td>Codice prodotto (ASIN), prezzo e data dei prodotti che apri</td><td>Memoria locale del browser (<code>storage.local</code>), massimo 1.500 prodotti</td><td>"Il più basso che hai visto", "Compra domani"</td></tr>
+    <tr><td>Scelte fatte nelle finestre ("Aspetto domani", "I soldi") e totale dei soldi non spesi</td><td>Memoria locale</td><td>Promemoria del giorno dopo e contatore "Risparmia prima"</td></tr>
+    <tr><td>Grafici dei prezzi di Keepa già scaricati</td><td>Memoria locale, per 12 ore, massimo 80</td><td>Non scaricarli di nuovo</td></tr>
+    <tr><td>Chiave API Keepa, se la inserisci</td><td>Memoria locale, non sincronizzata</td><td>Chiedere a Keepa lo storico esatto</td></tr>
+  </table>
+
+  <h2>Cosa viene inviato a terzi</h2>
+  <ul>
+    <li><b>Keepa (graph.keepa.com)</b>: quando apri un prodotto, l'estensione scarica il grafico pubblico dello storico
+      prezzi indicando il codice del prodotto. Come ogni richiesta web, Keepa riceve anche il tuo indirizzo IP e il tipo di
+      browser. Nessun altro dato. Puoi disattivarlo in Impostazioni → Storico prezzi.</li>
+    <li><b>Keepa (api.keepa.com)</b>: solo se inserisci la tua chiave, con il codice del prodotto e la chiave stessa.</li>
+  </ul>
+  <p>Valgono le informative di Keepa: <a href="https://keepa.com/#!disclaimer" target="_blank" rel="noopener noreferrer">keepa.com</a>.</p>
+
+  <h2>Cosa non fa</h2>
+  <ul>
+    <li>Non invia dati al titolare: non ci sono server, statistiche d'uso, pubblicità o tracciamento.</li>
+    <li>Non inserisce link affiliati e non modifica i prezzi o i carrelli.</li>
+    <li>Non vende né cede dati a nessuno.</li>
+    <li>Non legge pagine diverse da www.amazon.it.</li>
+  </ul>
+  <p>L'uso dei dati rispetta le norme del Chrome Web Store sui dati utente, compresi i requisiti di Uso limitato
+    (<i>Limited Use</i>).</p>
+
+  <h2>Come cancellare i dati</h2>
+  <p>Impostazioni → Privacy → "Cancella lo storico delle mie visite". Disinstallando l'estensione Chrome elimina tutti i
+    dati locali; le impostazioni sincronizzate si cancellano dai dati di sincronizzazione del tuo account Google.</p>
+
+  <h2>Informazioni indicative</h2>
+  <p>I verdetti e i valori mostrati (in particolare quelli letti dal grafico, segnati con ≈) sono stime basate su dati
+    pubblici e possono contenere errori. Non sono consulenza finanziaria né legale.</p>
+
+  <h2>Modifiche</h2>
+  <p>Eventuali modifiche saranno pubblicate su questa pagina con la nuova data.</p>
+
+  <hr>
+  <p class="muted"><b>English summary:</b> Sconto Vero has no servers and collects no data. Everything is computed and stored
+    in your browser. Settings (including your net salary) live in Chrome storage, synced by Chrome only if you enabled Chrome
+    sync. The only outbound request is Keepa's public price graph (graph.keepa.com), which receives the product code (ASIN)
+    and can be turned off; api.keepa.com is used only with your own key. No analytics, ads, affiliate links or data sales.
+    Use of data complies with the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
+</main>
+</body>
+</html>
